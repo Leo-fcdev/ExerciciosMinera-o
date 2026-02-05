@@ -18,8 +18,8 @@ os valores para cima, isto é, considere latas cheias.
 import array as arr
 import math
 
-capacidade = arr.array('d' ,[18.0, 3.6])
-preco = arr.array('d', [80.0, 25.0])
+capacidade =[18.0, 3.6]
+preco = [80.0, 25.0]
 
 area = float(input("Qual é a area em metros² que será pintada?"))
 litrosNecessarios = area / 6

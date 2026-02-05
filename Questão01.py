@@ -14,9 +14,9 @@ conta = float(input("Qual o valor da conta?"))
 couvert = float(input("Qual o valor do couvert?"))
 gorjeta = 1.20
 
-total: float = conta * gorjeta + couvert
+total = conta * gorjeta + couvert
 
-print(f"O total a pagar é de R$ {total}")
+print(f"O total a pagar é de R$ {total:.2f}")
 
 
 

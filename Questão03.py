@@ -10,11 +10,11 @@ Você está trabalhando na equipe de TI do IBGE para
 calcular o preço médio dos produtos. Lembre-se de
 ler os cinco preços, calcular a média e exibir o resultado.
 """
-import array as arr
+
 
 produto = input("Qual é o produto?")
 
-preco = arr.array('d', [])
+preco = []
 
 for i in range(5):
     valor = float(input("Qual o valor do produto?"))

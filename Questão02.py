@@ -15,5 +15,5 @@ divide-a pelo número de pessoas na mesa,
 
 conta = float(input("Qual o valor da conta?"))
 pessoas = float(input("Quantas pessoas estão na mesa?"))
-valorFinal: float = conta / (pessoas - 1)
-print(f"O valor a ser pago por pessoa é de R$ {valorFinal} por pessoa")
+valorFinal = conta / (pessoas - 1)
+print(f"O valor a ser pago por pessoa é de R$ {valorFinal:.2f} por pessoa")
